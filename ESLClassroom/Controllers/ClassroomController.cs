@@ -16,5 +16,13 @@ namespace ESLClassroom.Controllers
             User u = dbcontext.Users.FirstOrDefault(u => u.TeacherId == teacherID);
             return u;
         }
+
+        
+        ///
+        /// HTTP Methods to add
+        /// Create new user
+        /// Create classroom
+        /// create student
+        ///
     }
 }
